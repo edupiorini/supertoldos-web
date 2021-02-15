@@ -1,0 +1,26 @@
+header{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 200px;
+  height: 100px;
+
+}
+#header-logo {
+  width: 60%;
+  height: 60%;
+  margin-right: 10px;
+}
+adress{
+
+  font-size: 10px;
+}
+adress p {
+  width: 200px;
+  height: 70px;
+}
