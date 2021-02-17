@@ -7,33 +7,33 @@
   <link rel="stylesheet" href="../../styles/sidebar.css">
   <link rel="stylesheet" href="../../styles/main.css">
   <link rel="stylesheet" href="../../styles/animation.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Ordem de Compra</title>
 </head>
 <body>
-  <aside class="animate-right sidebar">
-    <footer>
-      <button>
-        <img src="../../assets/arrow-back.svg" alt="voltar">
-      </button>
-    </footer>
+  
 
-  </aside>
+  <div id="form-page">
+    <aside class="animate-right sidebar">
+      <footer>
+        <button>
+          <img src="../../assets/arrow-back.svg" alt="voltar">
+        </button>
+      </footer>
+  
+    </aside>
+    <main class="animate-appear">
+      <div class="form-details transparent-box">
+        <img src="../../assets/super-toldos.png" alt="super toldos logo" id="logo">
+      </div>
+      <div class="add-item transparent-box">
+      
+      </div>
+    </main>
+  </div>
 <!--
  <header>
-    <div class="adress-container">
-      <img id="header-logo" src="../../assets/super-toldos.png" alt="logo-supertoldos">
-      <adress>
-        <p>
-          012 3608-6008<br/>
-          012 98153-xxxx<br/>
-          Av. Oswaldo Aranha, 499, Terra Nova<br/>
-          Taubaté-SP<br/>
-          CNPJ: 22.583.349/0001-36<br/>
-          <a href="www.supertoldos.com.br" title="site super toldos">www.supertoldos.com.br</a>
-  
-        </p>
-      </adress>
-    </div>
+   
     <div class="os-container"> 
       <h1>Pedido Nº</h1>
       <input type="number" name="" id="os-number" readonly>
@@ -53,6 +53,15 @@
 
   
 -->
- 
+<script type="text/javascript" src="../../scripts/vanilla-tilt.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".add-item"), {
+  max: 25,
+  speed: 400,
+  glare: true,
+  "max-glare": 1,
+});
+</script>
+
 </body>
 </html>
