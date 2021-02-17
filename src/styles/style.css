@@ -15,7 +15,7 @@ header{
   padding: 10px;
 
   
-  width: 96vw;
+  width: 70vw;
   height: 100px;
 
 
@@ -55,3 +55,14 @@ adress p {
   border: none;
 }
 
+ .item-container{
+   display: flex;
+   flex-direction: row;
+
+   width:70vw;
+   height: 30px;
+
+   border: 1px dotted black;
+
+  }
+  

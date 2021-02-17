@@ -4,11 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../../styles/sidebar.css">
+  <link rel="stylesheet" href="../../styles/main.css">
+  <link rel="stylesheet" href="../../styles/animation.css">
   <title>Ordem de Compra</title>
 </head>
 <body>
-  <header>
+  <aside class="animate-right sidebar">
+    <footer>
+      <button>
+        <img src="../../assets/arrow-back.svg" alt="voltar">
+      </button>
+    </footer>
+
+  </aside>
+<!--
+ <header>
     <div class="adress-container">
       <img id="header-logo" src="../../assets/super-toldos.png" alt="logo-supertoldos">
       <adress>
@@ -30,11 +41,18 @@
     
   </header>
 
-  <!--Lista de itens-->
+
   <main class="items-list">
     <div class="item-container">
-      <input type="number"><input type="number"><input type="text">
+      <button alt="adicionar produto">+</button>
+      <input id="quantity" alt="quantidade de itens" name="quantidade" type="number"  >
+      <input id="product-code" alt="codigo do produto" name="codigo" type="number">
+      <input id="product-description-field" alt="descrição do produto" name="descrição" type="text">
     </div>
   </main>
+
+  
+-->
+ 
 </body>
 </html>
