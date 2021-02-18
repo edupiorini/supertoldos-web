@@ -27,39 +27,13 @@ main{
 
 }
 
-
-.id-additems-container{
+.client-id{
   width: 70rem;
   height: 20rem;
   margin: 6.4rem auto;
   margin-top: 20px;
-
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.client-id{
-  width: 45rem;
-  height: 20rem;
-
-  border-radius: 2rem;
-}
-
-.add-item{
   
-  width: 20rem;
-  height: 20rem;
-  margin: 6.4rem auto;
-  margin-right: 0;
-  margin-top: 0;
-
   border-radius: 2rem;
-
-  display: flex;
-
-  font-size: 2rem;
 
 }
 
