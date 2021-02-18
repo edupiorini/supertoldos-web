@@ -9,38 +9,42 @@ main{
 
 .form-details{
   width: 70rem;
-  max-height: 12rem;
+  height: 12rem;
   margin: 6.4rem auto;
   margin-bottom: 10px;
 
   border-radius: 2rem;
 }
 
-.form-details > img{
-  max-width: 20%;
-  max-height: 100%;
 
-}
+.id-additems-container{
+  width: 70rem;
+  height: 20rem;
+  margin: 6.4rem auto;
+  margin-top: 20px;
 
-.form-details header{
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  height: 15rem;
-  object-fit: cover;
 }
-
-.add-item{
-  
-  width: 40rem;
-  height: 8rem;
-  margin: 6.4rem auto;
-  margin-top: 0;
+.client-id{
+  width: 45rem;
+  height: 20rem;
 
   border-radius: 2rem;
 }
 
+.add-item{
+  
+  width: 20rem;
+  height: 20rem;
+  margin: 6.4rem auto;
+  margin-right: 0;
+  margin-top: 0;
+
+  border-radius: 2rem;
+}
 
 
 
