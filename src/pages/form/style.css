@@ -27,12 +27,12 @@ main{
 
 }
 
-.client-id{
+.client-container{
   width: 70rem;
   height: 20rem;
   margin: 6.4rem auto;
   margin-top: 20px;
-  
+
   border-radius: 2rem;
 
 }
