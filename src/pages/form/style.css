@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 #form-page{
 display: flex;
 min-height: 100vh;
@@ -5,15 +7,24 @@ min-height: 100vh;
 
 main{
   flex: 1;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .form-details{
   width: 70rem;
-  height: 12rem;
+  height: 10rem;
   margin: 6.4rem auto;
   margin-bottom: 10px;
 
   border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2.2rem;
+
 }
 
 
@@ -28,6 +39,7 @@ main{
   flex-direction: row;
   justify-content: space-between;
 }
+
 .client-id{
   width: 45rem;
   height: 20rem;
@@ -44,6 +56,11 @@ main{
   margin-top: 0;
 
   border-radius: 2rem;
+
+  display: flex;
+
+  font-size: 2rem;
+
 }
 
 
